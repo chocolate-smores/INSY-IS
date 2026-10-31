@@ -16,6 +16,8 @@
     --primary: #0B553C;
     --primary2: #ffffff;
     --primary-hover: #088048;
+    --btn-color: #800000;
+    --btn-hover: #c90000;
     --card-color: hwb(96 41% 27% / 0);
     --success: #22c55e;
     --success2: #ffffff;
@@ -43,6 +45,8 @@
     --primary: #DEBB5A;
     --primary2: #DEBB5A;
     --primary-hover: #F9E78C;
+    --btn-color: #800000;
+    --btn-hover: #c90000;
     --card-color: #072e25;
     --success: #22c55e;
     --success2: #22c55e;
@@ -134,7 +138,7 @@ sidebar {
 
 .icon-btn:hover {
     background-color: var(--bg-tertiary);
-    color: var(--primary);
+    color: var(--btn-hover);
 }
 
 .brand-logo {
@@ -294,13 +298,13 @@ header {
 }
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: var(--btn-color);
     color: #ffffff;
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-hover);
+    background-color: var(--btn-hover);
 }
 
 /* ==========================================
@@ -441,7 +445,7 @@ input[type="file"].form-control {
 }
 
 input[type="file"]::file-selector-button {
-    background-color: var(--primary);
+    background-color: var(--btn-color);
     color: #ffffff;
     padding: 8px 16px;
     border: none;
@@ -453,7 +457,7 @@ input[type="file"]::file-selector-button {
 }
 
 input[type="file"]::file-selector-button:hover {
-    background-color: var(--primary-hover);
+    background-color: var(--btn-hover);
 }
 
 .modal-overlay {
